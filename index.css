@@ -1,0 +1,52 @@
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2022/04/22/16/32/popsicle-7150137_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  position: relative;
+  width: 60%;
+  text-align: center;
+}
+
+h1.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #371F76;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.container {
+  margin-top: 20%;
+}
+
+.col {
+  background-color: #C8A4D4;
+  border: 5px solid #371F76;
+  color: #371F76;
+  margin: 4px;
+  flex:0;
+}
+
+.ticket_button {
+  margin-top: 22em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: purple;
+  color:white;
+  
+}
