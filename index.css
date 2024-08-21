@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://cdn.pixabay.com/photo/2022/04/22/16/32/popsicle-7150137_1280.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2023/07/13/18/36/ice-cream-8125500_1280.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -19,12 +19,12 @@ h1.anton-regular {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #371F76;
+  color: #1FE9F0;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000;
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1;
 }
 
 .container {
@@ -32,11 +32,9 @@ h1.anton-regular {
 }
 
 .col {
-  background-color: #C8A4D4;
-  border: 5px solid #371F76;
   color: #371F76;
-  margin: 4px;
-  flex:0;
+  margin: 30px;
+  top: 17em; /* Keep this if you want specific positioning */
 }
 
 .ticket_button {
@@ -45,8 +43,13 @@ h1.anton-regular {
   justify-content: center;
   align-items: center;
 }
+
 .btn {
-  background-color: purple;
-  color:white;
-  
+  background-color: #1FE9F0;
+  color: white;
+  opacity: 1;
+  /* Removed opacity if not needed */
+}
+.btn:hover {
+  opacity: 0.5;
 }
