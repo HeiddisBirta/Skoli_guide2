@@ -17,11 +17,10 @@ body {
 
 h1.anton-regular {
   font-family: "Anton", sans-serif;
-  color: #1FE9F0;
+  color: #f84216;;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000;
   position: fixed;
   top: 10%;
-  left: 50%;
   transform: translateX(-20%);
 }
 
@@ -31,9 +30,9 @@ h1.anton-regular {
 
 .col {
   color: #371F76;
-  transform: translateX(7%);
+  transform: translateX(50%);
   font-family: "Anton", sans-serif;
-  color: #1FE9F0;
+  color: #f0740c;
   display: flex;
   justify-content: center;
   align-items: center;
